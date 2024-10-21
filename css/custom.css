@@ -1,0 +1,216 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+body {
+    background-color: #04589c;
+}
+
+header {
+    background-image: url(../imagens/header.png);
+    background-size: cover;   
+    
+}
+
+section#oferta {
+    background-color: #73020c;
+}
+
+#header-wrap {
+    background-color: #bacbd3;
+	border-bottom: 1px solid #bacbd3;
+}
+
+
+h1, h2, h3, h4 { font-family: 'Lato', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+p {
+	font-family: 'Lato', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+	line-height: 26px;
+	margin-bottom: 0;
+    		
+}
+
+
+h1 {
+    font-size: 30px;
+	line-height: 26px;
+	margin-bottom: 0; 
+    line-height: 40px;
+    text-transform: uppercase;    
+
+}
+
+h2 {
+   	font-size: 30px;
+	line-height: 26px;
+	margin-bottom: 0;
+    padding-bottom: 30px;
+    line-height: 40px;
+       
+
+}    
+
+span {
+    font-size: 16px;
+    
+}
+
+.btn {
+    background-color: #7cb3d8;
+    border-radius: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+	color:#000000; 
+    letter-spacing: 3px;
+    line-height: 20px;
+    width: 290px;
+    padding: 15px 20px 15px 5px;
+    
+}
+
+
+.btn-md {
+    font-size: 20px;
+    padding: 14px 22px;
+    letter-spacing: 0px;
+	line-height: 18px;
+    width: 300px;
+}
+
+.font-sm-1 {
+    font-size: 12px;
+
+}
+
+.font-sm {
+    font-size: 14px;
+
+}
+
+.font-md {
+    font-size: 19px;
+}
+
+.letter-spacing {
+    letter-spacing: 3px;
+}
+
+
+.btn:hover {
+    color: #000;
+    background-color: #ffffff;
+}
+
+.text-span {
+    font-size: 30px;
+    color: #b9e5fb !important
+}
+
+.color-primary {
+    color: #ffffff;
+}
+
+.color-secondary {
+    color: #bf846f;
+}
+
+.img-widht {
+    width: 200px;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* ----------------------------------------------------------------
+FOOTER BLACK
+-----------------------------------------------------------------*/
+
+footer {
+    background: #1b1b1b;
+	border-top: 1px solid rgba(255,255,255,0.49);
+	margin-top: 35px;
+}
+
+div#copyrights {
+    background: #1b1b1b;
+}
+
+
+#copyrights {
+    padding: 50px 0;
+    font-size: 0.875rem;
+    line-height: 1.8;
+}
+
+
+footer p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+p.fone {
+    margin: 0 0 6px;
+    font-size: 20px;
+}
+
+footer h3 {
+	color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 40px;
+	line-height: 22px;
+}
+
+.icon-social {
+    margin-right: 15px;
+}
+
+p.legal {
+    font-size: 13px;
+    line-height: 16px !important;	
+    margin-top: 35px !important;
+    width: 70%;
+}
+
+.social-icons {
+    margin-bottom: 40px;
+}
+
+.chat a {
+    color: #ffffff;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+
+.w-75, .w-50 {width: 100% !important;}		
+#copyrights {padding: 20px 20px;}		
+	
+}
+
+@media (min-width: 767px) {
+    .d-none.d-img-none {
+        display: none!important;
+    }
+}
+
+@media (min-width: 1000px) {
+   
+    .d-none.d-img-none {
+        display: block!important;
+    }
+
+}
