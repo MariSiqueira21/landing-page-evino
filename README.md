@@ -14,6 +14,7 @@
             <img align-"right" src="https://github.com/user-attachments/assets/7b04d990-5ea6-4958-9771-2a6c51c9d7fd" alt="" srcset="" widht:800>
 </div>
 
+https://folha.casadasideias.com.br/@2024/@landing-page/evino/
 
 # landing-page-evino
 Landing page desenvolvida em colaboração com a agência de publicidade Casa das Ideias. 
